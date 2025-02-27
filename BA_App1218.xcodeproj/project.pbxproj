@@ -28,6 +28,11 @@
 		787762FD2D57A9890086EC1F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787762FC2D57A9890086EC1F /* LoadingView.swift */; };
 		787762FF2D57A98F0086EC1F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787762FE2D57A98F0086EC1F /* Launch Screen.storyboard */; };
 		787763012D57ABDE0086EC1F /* GuidesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787763002D57ABDE0086EC1F /* GuidesModel.swift */; };
+		788381862D68D50700CEB9B5 /* Svert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788381852D68D50700CEB9B5 /* Svert.swift */; };
+		788381882D68D51100CEB9B5 /* Wgew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788381872D68D51100CEB9B5 /* Wgew.swift */; };
+		7883818A2D68D51900CEB9B5 /* Dder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788381892D68D51900CEB9B5 /* Dder.swift */; };
+		7883818C2D6B563300CEB9B5 /* Us1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7883818B2D6B563300CEB9B5 /* Us1.swift */; };
+		7883818E2D6B564200CEB9B5 /* Us2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7883818D2D6B564200CEB9B5 /* Us2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		787762FC2D57A9890086EC1F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		787762FE2D57A98F0086EC1F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		787763002D57ABDE0086EC1F /* GuidesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidesModel.swift; sourceTree = "<group>"; };
+		788381852D68D50700CEB9B5 /* Svert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Svert.swift; sourceTree = "<group>"; };
+		788381872D68D51100CEB9B5 /* Wgew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wgew.swift; sourceTree = "<group>"; };
+		788381892D68D51900CEB9B5 /* Dder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dder.swift; sourceTree = "<group>"; };
+		7883818B2D6B563300CEB9B5 /* Us1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Us1.swift; sourceTree = "<group>"; };
+		7883818D2D6B564200CEB9B5 /* Us2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Us2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				787762F82D57A95E0086EC1F /* Array.swift */,
+				788381852D68D50700CEB9B5 /* Svert.swift */,
+				788381872D68D51100CEB9B5 /* Wgew.swift */,
+				788381892D68D51900CEB9B5 /* Dder.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -196,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				7874ED4F2D5AA9F7000119B4 /* R1.swift */,
+				7883818B2D6B563300CEB9B5 /* Us1.swift */,
+				7883818D2D6B564200CEB9B5 /* Us2.swift */,
 			);
 			path = OB;
 			sourceTree = "<group>";
@@ -312,23 +327,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				787762D22D57A2EB0086EC1F /* ContentView.swift in Sources */,
+				788381862D68D50700CEB9B5 /* Svert.swift in Sources */,
 				787762F92D57A95E0086EC1F /* Array.swift in Sources */,
 				7874ED502D5AA9F7000119B4 /* R1.swift in Sources */,
 				787762ED2D57A92D0086EC1F /* GuidesViewModel.swift in Sources */,
 				787762F12D57A93C0086EC1F /* TermsViewModel.swift in Sources */,
 				787762F72D57A9530086EC1F /* SettingsView.swift in Sources */,
+				7883818A2D68D51900CEB9B5 /* Dder.swift in Sources */,
 				787762FD2D57A9890086EC1F /* LoadingView.swift in Sources */,
 				7874ED4B2D5A96F4000119B4 /* TermDetail.swift in Sources */,
 				787762F52D57A94C0086EC1F /* ScheduleViewModel.swift in Sources */,
 				7874ED462D5A8C7A000119B4 /* GuideDetail.swift in Sources */,
 				787762F32D57A9460086EC1F /* ScheduleView.swift in Sources */,
 				787762EF2D57A9340086EC1F /* TermsView.swift in Sources */,
+				7883818E2D6B564200CEB9B5 /* Us2.swift in Sources */,
 				787762FB2D57A97B0086EC1F /* TabBar.swift in Sources */,
 				787762D02D57A2EB0086EC1F /* BA_App1218App.swift in Sources */,
 				787762EB2D57A9240086EC1F /* GuidesView.swift in Sources */,
 				7874ED482D5A91AD000119B4 /* TermsModel.swift in Sources */,
 				787763012D57ABDE0086EC1F /* GuidesModel.swift in Sources */,
+				7883818C2D6B563300CEB9B5 /* Us1.swift in Sources */,
 				7874ED4E2D5A9B8F000119B4 /* PairsView.swift in Sources */,
+				788381882D68D51100CEB9B5 /* Wgew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +480,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BA_App1218/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Financial coach: charts for you";
+				INFOPLIST_KEY_CFBundleDisplayName = "ǪX:Financial coach";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -476,7 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "IOI.BA-App1218";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -499,7 +519,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BA_App1218/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Financial coach: charts for you";
+				INFOPLIST_KEY_CFBundleDisplayName = "ǪX:Financial coach";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -515,7 +535,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "IOI.BA-App1218";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
